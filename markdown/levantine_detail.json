@@ -1,0 +1,315 @@
+{
+  "character_id": "levantine",
+  "character_name": "莱万汀",
+  "english_name": "Levantine",
+  "basic_info": {
+    "code_name": "莱万汀",
+    "gender": "女",
+    "identity": "罗德岛",
+    "birthday": "和管理员的一样",
+    "race": "萨卡兹",
+    "infection_status": "非感染者",
+    "weapon": "单手剑",
+    "job_type": "主控干员 (Controller)",
+    "main_ability": "智识",
+    "sub_ability": "力量",
+    "description": "火焰，照亮黄昏！莱万汀来自罗德岛，以管理员直属干员的身份为终末地工业提供服务。在华法琳的许可下，莱万汀曾在塔卫二各处独自游历，追寻她自己的目标。她挥舞火焰，具有强大的独立作战能力，同时也是个待人真诚的人。",
+    "physical_strength": "优良",
+    "combat_skill": "标准",
+    "tactical_planning": "标准",
+    "source_stone_adaptation": "优良"
+  },
+  "elite_stages": [
+    {
+      "stage": 0,
+      "level_cap": 20,
+      "materials": null
+    },
+    {
+      "stage": 1,
+      "level_cap": 40,
+      "materials": {
+        "gold": 1600,
+        "light_fungus": 3,
+        "protocol_disk": 8
+      }
+    },
+    {
+      "stage": 2,
+      "level_cap": 60,
+      "materials": {
+        "gold": 6500,
+        "medium_fungus": 5,
+        "protocol_disk": 25
+      }
+    },
+    {
+      "stage": 3,
+      "level_cap": 80,
+      "materials": {
+        "protocol_disk_group": 40,
+        "heavy_fungus": 5,
+        "gold": 25000
+      }
+    },
+    {
+      "stage": 4,
+      "level_cap": 999,
+      "materials": {
+        "protocol_disk_group": 75,
+        "d96_steel": 56,
+        "starlight_fungus": 8,
+        "gold": 225000
+      }
+    }
+  ],
+  "skills": {
+    "normal_attack": {
+      "name": "燃烬",
+      "name_en": "Burning Ash",
+      "type": "normal_attack",
+      "description": "对敌人至多造成5段攻击，造成灼燃伤害。作为主控干员时，重击会造成若干点失衡。下落攻击时处于空中，会下落并攻击附近敌人。处决攻击时附近有敌人处于失衡状态，将处决该敌人，造成大量灼燃伤害并恢复一定技力。",
+      "data": {
+        "RANK_1_5": {
+          "普攻1段": "16%-36%",
+          "普攻2段": "24%-54%",
+          "普攻3段": "25%-56%",
+          "普攻4段": "39%-88%",
+          "普攻5段": "53%-119%",
+          "处决攻击": "400%-900%",
+          "下落攻击": "80%-180%"
+        }
+      }
+    },
+    "battle_skill": {
+      "name": "焚灭",
+      "name_en": "Incineration",
+      "type": "battle_skill",
+      "cost": 100,
+      "description": "召唤熔核碎片持续攻击前方敌人，造成灼燃伤害。如果命中敌人，会获得一点熔火。如果施放时已拥有4层熔火，则最后会消耗所有层数，对大范围内敌人追加1次攻击，造成灼燃伤害并强制施加短暂的燃烧。追加攻击命中敌人会额外获得终结技能量。",
+      "key_stats": {
+        "初始爆炸伤害": "62%-140%",
+        "初始爆炸失衡值": 10,
+        "持续伤害每段": "6%-14%",
+        "追加伤害倍率": "342%-770%",
+        "追加失衡值": 10,
+        "燃烧时长": "5秒",
+        "追加攻击获得终结技能量": 100
+      }
+    },
+    "cooperation_skill": {
+      "name": "沸腾",
+      "name_en": "Boiling",
+      "type": "cooperation_skill",
+      "cooldown": "10s (专精3: 9s)",
+      "description": "当有敌人进入燃烧或腐蚀状态时可以发动。让所有处于燃烧或腐蚀状态的敌人脚下喷出火焰，对其造成灼热附着。如果命中敌人，会获得一层熔火。每命中一个敌人，还会额外获得终结技能量。",
+      "key_stats": {
+        "伤害倍率": "240%-540%",
+        "失衡值": 10,
+        "命中1个敌人获得终结技能量": 25,
+        "命中2个敌人获得终结技能量": 30,
+        "命中3个或以上获得终结技能量": 35
+      }
+    },
+    "ultimate_skill": {
+      "name": "黄昏",
+      "name_en": "Twilight",
+      "type": "ultimate_skill",
+      "cost": 300,
+      "duration": "15s",
+      "description": "召唤烈焰魔剑并切换为主控角色。一段时间内，普通攻击得到强化，烈焰魔剑会协同莱万汀发动攻击，每次攻击造成灼燃伤害。此外，普通攻击第3段会施加灼热附着。",
+      "key_stats": {
+        "强化普攻1段": "65%-146%",
+        "强化普攻2段": "81%-182%",
+        "强化普攻3段": "115%-260%",
+        "强化普攻4段": "203%-456%",
+        "强化普攻4段失衡值": 24
+      }
+    }
+  },
+  "talents": [
+    {
+      "id": 1,
+      "name": "明晰",
+      "description": "干员智识能力值提升",
+      "levels": [
+        {
+          "level": 1,
+          "value": 10,
+          "unlock": "信赖度20% + 精英化1",
+          "cost": "1000折金票 + 5协议棱柱"
+        },
+        {
+          "level": 2,
+          "value": 15,
+          "unlock": "信赖度50% + 精英化2",
+          "cost": "1800折金票 + 10协议棱柱"
+        },
+        {
+          "level": 3,
+          "value": 15,
+          "unlock": "信赖度100% + 精英化3",
+          "cost": "6000折金票 + 10协议棱柱组"
+        },
+        {
+          "level": 4,
+          "value": 20,
+          "unlock": "信赖度100% + 精英化4",
+          "cost": "18000折金票 + 20协议棱柱组"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "灼心",
+      "description": "主控干员重击或处决命中时，吸收周围敌人的灼热附着。每吸收一层获得一层熔火，最多4层。达到4层时，无视敌人灼热抗性，持续20秒。",
+      "levels": [
+        {
+          "level": 1,
+          "ignore_resistance": 10,
+          "unlock": "精英化1",
+          "cost": "2400折金票 + 12协议棱柱"
+        },
+        {
+          "level": 2,
+          "ignore_resistance": 15,
+          "unlock": "精英化2",
+          "cost": "免费"
+        },
+        {
+          "level": 3,
+          "ignore_resistance": 20,
+          "unlock": "精英化3",
+          "cost": "1600折金票 + 18协议棱柱"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "复燃",
+      "description": "生命值低于40%时，获得90%庇护，并每秒回复5%最大生命值。每120秒最多触发一次。",
+      "levels": [
+        {
+          "level": 1,
+          "duration": "4s",
+          "unlock": "精英化2",
+          "cost": "10800折金票 + 48协议棱柱"
+        },
+        {
+          "level": 2,
+          "duration": "8s",
+          "unlock": "精英化3",
+          "cost": "16000折金票 + 18协议棱柱组"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "记忆熔炉",
+      "description": "进驻制造舱时，干员经验素材的生产效率提升",
+      "levels": [
+        {
+          "level": 1,
+          "efficiency_boost": "20%",
+          "unlock": "精英化1",
+          "cost": "1600折金票 + 6协议棱柱"
+        },
+        {
+          "level": 2,
+          "efficiency_boost": "30%",
+          "unlock": "精英化3",
+          "cost": "8000折金票 + 12协议棱柱组"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "不熄炎火",
+      "description": "进驻制造仓时，舱室内干员心情消耗降低",
+      "levels": [
+        {
+          "level": 1,
+          "morale_reduction": "14%",
+          "unlock": "精英化2",
+          "cost": "3000折金票 + 12协议棱柱"
+        },
+        {
+          "level": 2,
+          "morale_reduction": "18%",
+          "unlock": "精英化4",
+          "cost": "20000折金票 + 20协议棱柱组"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "装备适配",
+      "description": "激活后，允许干员穿戴相应品质装备",
+      "levels": [
+        {
+          "level": 1,
+          "quality": "蓝色",
+          "unlock": "精英化1",
+          "cost": "1800折金票"
+        },
+        {
+          "level": 2,
+          "quality": "紫色",
+          "unlock": "精英化2",
+          "cost": "6500折金票"
+        },
+        {
+          "level": 3,
+          "quality": "金色",
+          "unlock": "精英化3",
+          "cost": "25600折金票"
+        }
+      ]
+    }
+  ],
+  "potentials": [
+    {
+      "id": 1,
+      "name": "熔火之心",
+      "effect": "战技焚灭的追加攻击的伤害倍率提升至原本的1.2倍，且命中时返还20点技力。"
+    },
+    {
+      "id": 2,
+      "name": "追忆之旅",
+      "effect": "智识+20%，普通攻击伤害+15%。"
+    },
+    {
+      "id": 3,
+      "name": "往事碎片",
+      "effect": "战技焚灭造成的燃烧持续时间+50%，且燃烧的伤害提升至原本的1.5倍。"
+    },
+    {
+      "id": 4,
+      "name": "冰淇淋熔炉",
+      "effect": "终结技黄昏所需的终结技能量-15%。"
+    },
+    {
+      "id": 5,
+      "name": "存在的证明",
+      "effect": "终结技黄昏的强化普通攻击的伤害倍率提升至原本的1.2倍，且终结技期间，莱万汀每击败一个敌人，终结技的持续时间+1秒。（最多+7秒）"
+    }
+  ],
+  "traits": {
+    "specialty_1": {
+      "name": "源石技艺",
+      "description": "焚尽顽敌，点燃篝火，照亮黑暗。她是破坏者，她是毁灭者，她是保护者。"
+    },
+    "specialty_2": {
+      "name": "局势分析",
+      "description": "在记忆之林中，接触过最真实的幻象，也见证过不可思议的事实——她的洞察力来源于此。"
+    },
+    "hobby_1": {
+      "name": "创意",
+      "description": "特殊而有趣的东西，才值得留作记忆。"
+    },
+    "hobby_2": {
+      "name": "生活",
+      "description": "甜食是好的，柔软的床是好的，四处游历也是好的——把生活寄托在未来，是比放到过去要好的。"
+    }
+  }
+}

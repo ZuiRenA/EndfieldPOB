@@ -1,0 +1,117 @@
+{
+  "set": {
+    "id": "50shi-yinglong",
+    "name": "50式应龙装备组",
+    "effect": [
+      "3件套组效果：装备者攻击力+15%。",
+      "当小队内任意干员施放战技时，装备者获得一层应龙之锐，使得该干员下一次连携技伤害+20%，应龙之锐最多叠加3层。"
+    ]
+  },
+  "equipment": [
+    {
+      "id": "50shi-yinglong-zhongjia",
+      "name": "50式应龙重甲",
+      "slot": "护甲",
+      "gameEntryId": 986,
+      "baseStats": {
+        "防御力": "+56",
+        "力量": "+87",
+        "意志": "+58",
+        "物理伤害加成": "+11.5%"
+      },
+      "refineData": {
+        "力量": { "base": "+87", "level1": "+95", "level2": "+104", "level3": "+113" },
+        "意志": { "base": "+58", "level1": "+63", "level2": "+69", "level3": "+75" },
+        "物理伤害加成": { "base": "+11.5%", "level1": "+12.7%", "level2": "+13.8%", "level3": "+15.0%" }
+      }
+    },
+    {
+      "id": "50shi-yinglong-qingjia",
+      "name": "50式应龙轻甲",
+      "slot": "护甲",
+      "gameEntryId": 987,
+      "baseStats": {
+        "防御力": "+56",
+        "力量": "+58",
+        "意志": "+87",
+        "技能伤害加成": "+13.8%"
+      },
+      "refineData": {
+        "意志": { "base": "+87", "level1": "+95", "level2": "+104", "level3": "+113" },
+        "力量": { "base": "+58", "level1": "+63", "level2": "+69", "level3": "+75" },
+        "技能伤害加成": { "base": "+13.8%", "level1": "+15.2%", "level2": "+16.6%", "level3": "+17.9%" }
+      }
+    },
+    {
+      "id": "50shi-yinglong-hushou",
+      "name": "50式应龙护手",
+      "slot": "护手",
+      "gameEntryId": 988,
+      "baseStats": {
+        "防御力": "+42",
+        "智识": "+43"
+      },
+      "refineData": {
+        "智识": { "base": "+43", "level1": "+47", "level2": "+51", "level3": "+55" }
+      }
+    },
+    {
+      "id": "50shi-yinglong-hushou-1",
+      "name": "50式应龙护手·壹型",
+      "slot": "护手",
+      "gameEntryId": 989,
+      "baseStats": {
+        "防御力": "+42",
+        "意志": "+65"
+      },
+      "refineData": {
+        "意志": { "base": "+65", "level1": "+71", "level2": "+78", "level3": "+84" }
+      }
+    },
+    {
+      "id": "50shi-yinglong-leida",
+      "name": "50式应龙雷达",
+      "slot": "配件",
+      "gameEntryId": 990,
+      "baseStats": {
+        "防御力": "+21",
+        "力量": "+32",
+        "意志": "+21"
+      },
+      "refineData": {
+        "力量": { "base": "+32", "level1": "+35", "level2": "+38", "level3": "+41" },
+        "意志": { "base": "+21", "level1": "+23", "level2": "+25", "level3": "+27" }
+      }
+    },
+    {
+      "id": "50shi-yinglong-duanren",
+      "name": "50式应龙短刃",
+      "slot": "配件",
+      "gameEntryId": 991,
+      "baseStats": {
+        "防御力": "+21",
+        "意志": "+32"
+      },
+      "refineData": {
+        "意志": { "base": "+32", "level1": "+35", "level2": "+38", "level3": "+41" }
+      }
+    },
+    {
+      "id": "50shi-yinglong-duanren-1",
+      "name": "50式应龙短刃·壹型",
+      "slot": "配件",
+      "gameEntryId": 992,
+      "baseStats": {
+        "防御力": "+21",
+        "智识": "+32",
+        "力量": "+21",
+        "所有技能伤害加成": "+27.6%"
+      },
+      "refineData": {
+        "智识": { "base": "+32", "level1": "+35", "level2": "+38", "level3": "+41" },
+        "力量": { "base": "+21", "level1": "+23", "level2": "+25", "level3": "+27" },
+        "所有技能伤害加成": { "base": "+27.6%", "level1": "+30.4%", "level2": "+33.1%", "level3": "+35.9%" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "levantine",
+  "name": "莱万汀",
+  "rarity": 6,
+  "weapon": "单手剑",
+  "primaryAttribute": "智识",
+  "secondaryAttribute": "力量",
+  "damageType": "灼热",
+  "stats": {
+    "1": { "strength": 13, "agility": 9, "intelligence": 22, "willpower": 9, "attack": 30, "health": 500, "defense": 0 },
+    "20": { "strength": 36, "agility": 28, "intelligence": 55, "willpower": 26, "attack": 91, "health": 1566, "defense": 0 },
+    "40": { "strength": 60, "agility": 49, "intelligence": 90, "willpower": 44, "attack": 156, "health": 2689, "defense": 0 },
+    "60": { "strength": 85, "agility": 69, "intelligence": 125, "willpower": 62, "attack": 221, "health": 3811, "defense": 0 },
+    "80": { "strength": 109, "agility": 89, "intelligence": 160, "willpower": 80, "attack": 285, "health": 4934, "defense": 0 },
+    "90": { "strength": 121, "agility": 99, "intelligence": 177, "willpower": 89, "attack": 318, "health": 5495, "defense": 0 }
+  },
+  "skills": {
+    "normalAttack": {
+      "name": "燃烬",
+      "type": "普通攻击",
+      "totalDuration": 3.8,
+      "heavyAttackSegment": 5,
+      "heavyAttackEnergyRestore": 20,
+      "heavyAttackStagger": 18,
+      "data": {
+        "segment1Multiplier": [0.16, 0.18, 0.19, 0.21, 0.22, 0.24, 0.26, 0.27, 0.29, 0.31, 0.33, 0.36],
+        "segment2Multiplier": [0.24, 0.26, 0.29, 0.31, 0.34, 0.36, 0.38, 0.41, 0.43, 0.46, 0.50, 0.54],
+        "segment3Multiplier": [0.25, 0.28, 0.30, 0.33, 0.35, 0.38, 0.40, 0.43, 0.45, 0.48, 0.52, 0.56],
+        "segment4Multiplier": [0.39, 0.43, 0.47, 0.51, 0.55, 0.59, 0.62, 0.66, 0.70, 0.75, 0.81, 0.88],
+        "segment5Multiplier": [0.53, 0.58, 0.64, 0.69, 0.74, 0.80, 0.85, 0.90, 0.95, 1.02, 1.10, 1.19],
+        "executionMultiplier": [4.00, 4.40, 4.80, 5.20, 5.60, 6.00, 6.40, 6.80, 7.20, 7.70, 8.30, 9.00],
+        "plungeMultiplier": [0.80, 0.88, 0.96, 1.04, 1.12, 1.20, 1.28, 1.36, 1.44, 1.54, 1.66, 1.80]
+      }
+    },
+    "battleSkill": {
+      "name": "焚灭",
+      "type": "战技",
+      "energyCost": 100,
+      "data": {
+        "initialExplosionMultiplier": [0.62, 0.68, 0.75, 0.81, 0.87, 0.93, 0.99, 1.06, 1.12, 1.20, 1.29, 1.40],
+        "initialExplosionStagger": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "dotMultiplier": [0.06, 0.07, 0.08, 0.08, 0.09, 0.09, 0.10, 0.11, 0.11, 0.12, 0.13, 0.14],
+        "bonusMultiplier": [3.42, 3.76, 4.10, 4.45, 4.79, 5.13, 5.47, 5.81, 6.16, 6.58, 7.10, 7.70],
+        "bonusStagger": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "burnDuration": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+        "bonusUltEnergy": [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100],
+        "ultSegment1Multiplier": [1.47, 1.61, 1.76, 1.91, 2.05, 2.20, 2.35, 2.49, 2.64, 2.82, 3.04, 3.30],
+        "ultSegment1Stagger": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "ultSegment2Multiplier": [1.64, 1.81, 1.97, 2.14, 2.30, 2.47, 2.63, 2.79, 2.96, 3.16, 3.41, 3.70],
+        "ultSegment2Stagger": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "ultBonusMultiplier": [4.00, 4.40, 4.80, 5.20, 5.60, 6.00, 6.40, 6.80, 7.20, 7.70, 8.30, 9.00],
+        "ultBonusStagger": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "ultBurnDuration": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+      }
+    },
+    "chainSkill": {
+      "name": "沸腾",
+      "type": "连携技",
+      "data": {
+        "cooldown": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 9],
+        "damageMultiplier": [2.40, 2.64, 2.88, 3.12, 3.36, 3.60, 3.84, 4.08, 4.32, 4.62, 4.98, 5.40],
+        "stagger": [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10],
+        "ultEnergy1Target": [25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25],
+        "ultEnergy2Targets": [30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30, 30],
+        "ultEnergy3PlusTargets": [35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35, 35]
+      }
+    },
+    "ultimate": {
+      "name": "黄昏",
+      "type": "终结技",
+      "data": {
+        "energyRequired": [300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300, 300],
+        "duration": [15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15],
+        "enhancedSegment1Multiplier": [0.65, 0.71, 0.78, 0.84, 0.91, 0.97, 1.04, 1.10, 1.17, 1.25, 1.34, 1.46],
+        "enhancedSegment2Multiplier": [0.81, 0.89, 0.97, 1.05, 1.13, 1.22, 1.30, 1.38, 1.46, 1.56, 1.68, 1.82],
+        "enhancedSegment3Multiplier": [1.15, 1.27, 1.39, 1.50, 1.62, 1.73, 1.85, 1.96, 2.08, 2.22, 2.40, 2.60],
+        "enhancedSegment4Multiplier": [2.03, 2.23, 2.43, 2.63, 2.84, 3.04, 3.24, 3.44, 3.65, 3.90, 4.20, 4.56],
+        "enhancedSegment4Stagger": [24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24, 24]
+      }
+    }
+  },
+  "talents": {
+    "mingxi": {
+      "name": "明晰",
+      "levels": [
+        { "level": 1, "intelligenceBonus": 10 },
+        { "level": 2, "intelligenceBonus": 15 },
+        { "level": 3, "intelligenceBonus": 15 },
+        { "level": 4, "intelligenceBonus": 20 }
+      ]
+    },
+    "zhuoxin": {
+      "name": "灼心",
+      "levels": [
+        { "level": 1, "ignoreHeatResistance": 10 },
+        { "level": 2, "ignoreHeatResistance": 15 },
+        { "level": 3, "ignoreHeatResistance": 20 }
+      ],
+      "maxMeltStack": 4,
+      "effectDuration": 20
+    },
+    "furan": {
+      "name": "复燃",
+      "triggerHealthPercent": 0.40,
+      "shieldPercent": 0.90,
+      "healPerSecondPercent": 0.05,
+      "cooldown": 120,
+      "levels": [
+        { "level": 1, "duration": 4 },
+        { "level": 2, "duration": 8 }
+      ]
+    }
+  },
+  "potentials": [
+    {
+      "rank": 1,
+      "name": "熔火之心",
+      "effects": {
+        "battleSkillBonusMultiplier": 1.2,
+        "battleSkillBonusEnergyReturn": 20
+      }
+    },
+    {
+      "rank": 2,
+      "name": "追忆之旅",
+      "effects": {
+        "intelligencePercent": 0.20,
+        "normalAttackDamagePercent": 0.15
+      }
+    },
+    {
+      "rank": 3,
+      "name": "往事碎片",
+      "effects": {
+        "battleSkillBurnDurationMultiplier": 1.5,
+        "battleSkillBurnDamageMultiplier": 1.5
+      }
+    },
+    {
+      "rank": 4,
+      "name": "冰淇淋熔炉",
+      "effects": {
+        "ultimateEnergyReduction": 0.15
+      }
+    },
+    {
+      "rank": 5,
+      "name": "存在的证明",
+      "effects": {
+        "ultimateEnhancedAttackMultiplier": 1.2,
+        "ultimateDurationExtensionPerKill": 1,
+        "ultimateDurationExtensionMax": 7
+      }
+    }
+  ]
+}

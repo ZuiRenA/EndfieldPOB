@@ -1,0 +1,108 @@
+{
+  "id": "ronzhu-huoyan",
+  "name": "熔铸火焰",
+  "rarity": 6,
+  "type": "单手剑",
+  "obtain": "武器池抽卡获取",
+  "baseAttack": {
+    "1": 52,
+    "20": 149,
+    "20+": 252,
+    "40": 252,
+    "40+": 355,
+    "60": 355,
+    "60+": 458,
+    "80": 458,
+    "80+": 510,
+    "90": 510
+  },
+  "skills": {
+    "zhishiTishengDa": {
+      "name": "智识提升·大",
+      "type": "被动",
+      "recommendedMatrix": "无瑕基质·夜幕",
+      "maxRank": 9,
+      "data": {
+        "intelligenceBonus": [20, 36, 52, 68, 84, 100, 116, 132, 156]
+      }
+    },
+    "gongjiTishengDa": {
+      "name": "攻击提升·大",
+      "type": "被动",
+      "recommendedMatrix": "无瑕基质·夜幕",
+      "maxRank": 9,
+      "data": {
+        "attackPercent": [0.05, 0.09, 0.13, 0.17, 0.21, 0.25, 0.29, 0.33, 0.39]
+      }
+    },
+    "yemuSimingLiehuo": {
+      "name": "夜幕·嘶鸣烈火",
+      "type": "专属技能",
+      "recommendedMatrix": "无瑕基质·夜幕",
+      "maxRank": 9,
+      "note": "同名效果无法叠加",
+      "data": {
+        "heatDamagePercent": [0.16, 0.192, 0.256, 0.256, 0.288, 0.32, 0.352, 0.384, 0.448],
+        "heatDamagePercentTriggerCondition": "无条件",
+        "normalAttackDamagePercent": [0.75, 0.90, 1.20, 1.20, 1.35, 1.50, 1.65, 1.80, 2.10],
+        "normalAttackDamagePercentTriggerCondition": "装备者施放终结技后",
+        "normalAttackDamagePercentDuration": [20, 20, 20, 20, 20, 20, 20, 20, 20]
+      }
+    }
+  },
+  "ascension": {
+    "20": {
+      "materials": [
+        { "name": "强固模具", "quantity": 5 },
+        { "name": "轻黯石", "quantity": 3 }
+      ],
+      "skillUnlocks": {
+        "zhishiTishengDa": { "currentRank": 1, "maxRank": 3 },
+        "gongjiTishengDa": { "currentRank": 1, "maxRank": 4 },
+        "yemuSimingLiehuo": { "currentRank": 1, "maxRank": 4 }
+      }
+    },
+    "40": {
+      "materials": [
+        { "name": "强固模具", "quantity": 18 },
+        { "name": "中黯石", "quantity": 5 }
+      ],
+      "skillUnlocks": {
+        "zhishiTishengDa": { "currentRank": 2, "maxRank": 5 },
+        "gongjiTishengDa": { "currentRank": 1, "maxRank": 4 },
+        "yemuSimingLiehuo": { "currentRank": 1, "maxRank": 4 }
+      }
+    },
+    "60": {
+      "materials": [
+        { "name": "重型强固模具", "quantity": 20 },
+        { "name": "重黯石", "quantity": 5 }
+      ],
+      "skillUnlocks": {
+        "zhishiTishengDa": { "currentRank": 2, "maxRank": 6 },
+        "gongjiTishengDa": { "currentRank": 2, "maxRank": 6 },
+        "yemuSimingLiehuo": { "currentRank": 1, "maxRank": 4 }
+      }
+    },
+    "80": {
+      "materials": [
+        { "name": "重型强固模具", "quantity": 50 },
+        { "name": "D96钢样品四", "quantity": 16 },
+        { "name": "武陵石", "quantity": 8 }
+      ],
+      "skillUnlocks": {
+        "zhishiTishengDa": { "currentRank": 3, "maxRank": 8 },
+        "gongjiTishengDa": { "currentRank": 2, "maxRank": 7 },
+        "yemuSimingLiehuo": { "currentRank": 1, "maxRank": 4 }
+      }
+    },
+    "max": {
+      "skillUnlocks": {
+        "zhishiTishengDa": { "currentRank": 3, "maxRank": 9 },
+        "gongjiTishengDa": { "currentRank": 3, "maxRank": 9 },
+        "yemuSimingLiehuo": { "currentRank": 1, "maxRank": 4 }
+      }
+    }
+  },
+  "exclusiveOperator": "levantine"
+}

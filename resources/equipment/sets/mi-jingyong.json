@@ -1,0 +1,177 @@
+{
+  "set": {
+    "id": "mi-jingyong",
+    "name": "M.I.警用装备组",
+    "effect": [
+      "3件套组效果：装备者暴击率+5%。",
+      "当装备者触发暴击后，5秒内+5%攻击力，该效果最多叠加5层。层数叠满后，额外+5%暴击率，该效果无法叠加。"
+    ]
+  },
+  "equipment": [
+    {
+      "id": "mi-jingyong-hujia",
+      "name": "M.I.警用护甲",
+      "slot": "护甲",
+      "gameEntryId": 965,
+      "baseStats": {
+        "防御力": "+56",
+        "力量": "+58",
+        "源石技艺强度": "+20"
+      },
+      "refineData": {
+        "力量": { "base": "+58", "level1": "+63", "level2": "+69", "level3": "+75" },
+        "源石技艺强度": { "base": "+20", "level1": "+22", "level2": "+24", "level3": "+26" }
+      }
+    },
+    {
+      "id": "mi-jingyong-zhaoyi",
+      "name": "M.I.警用罩衣",
+      "slot": "护甲",
+      "gameEntryId": 966,
+      "baseStats": {
+        "防御力": "+56",
+        "智识": "+87",
+        "普通攻击伤害加成": "+13.8%"
+      },
+      "refineData": {
+        "智识": { "base": "+87", "level1": "+95", "level2": "+104", "level3": "+113" },
+        "普通攻击伤害加成": { "base": "+13.8%", "level1": "+15.2%", "level2": "+16.6%", "level3": "+17.9%" }
+      }
+    },
+    {
+      "id": "mi-jingyong-zhaoyi-1",
+      "name": "M.I.警用罩衣·壹型",
+      "slot": "护甲",
+      "gameEntryId": 967,
+      "baseStats": {
+        "防御力": "+56",
+        "智识": "+87",
+        "意志": "+58"
+      },
+      "refineData": {
+        "智识": { "base": "+87", "level1": "+95", "level2": "+104", "level3": "+113" },
+        "意志": { "base": "+58", "level1": "+63", "level2": "+69", "level3": "+75" }
+      }
+    },
+    {
+      "id": "mi-jingyong-zhaoyi-2",
+      "name": "M.I.警用罩衣·贰型",
+      "slot": "护甲",
+      "gameEntryId": 968,
+      "baseStats": {},
+      "refineData": {}
+    },
+    {
+      "id": "mi-jingyong-shoutao",
+      "name": "M.I.警用手套",
+      "slot": "护手",
+      "gameEntryId": 970,
+      "baseStats": {
+        "防御力": "+42",
+        "力量": "+43"
+      },
+      "refineData": {
+        "力量": { "base": "+43", "level1": "+47", "level2": "+51", "level3": "+55" }
+      }
+    },
+    {
+      "id": "mi-jingyong-shouhuan",
+      "name": "M.I.警用手环",
+      "slot": "护手",
+      "gameEntryId": 971,
+      "baseStats": {
+        "防御力": "+42",
+        "智识": "+65",
+        "普通攻击伤害加成": "+23.0%"
+      },
+      "refineData": {
+        "智识": { "base": "+65", "level1": "+71", "level2": "+78", "level3": "+84" },
+        "普通攻击伤害加成": { "base": "+23.0%", "level1": "+25.3%", "level2": "+27.6%", "level3": "+29.9%" }
+      }
+    },
+    {
+      "id": "mi-jingyong-shouhuan-1",
+      "name": "M.I.警用手环·壹型",
+      "slot": "护手",
+      "gameEntryId": 972,
+      "baseStats": {
+        "防御力": "+42",
+        "智识": "+65",
+        "意志": "+43"
+      },
+      "refineData": {
+        "智识": { "base": "+65", "level1": "+71", "level2": "+78", "level3": "+84" },
+        "意志": { "base": "+43", "level1": "+47", "level2": "+51", "level3": "+55" }
+      }
+    },
+    {
+      "id": "mi-jingyong-bihuan",
+      "name": "M.I.警用臂环",
+      "slot": "配件",
+      "gameEntryId": 973,
+      "baseStats": {
+        "防御力": "+21",
+        "力量": "+32",
+        "意志": "+21"
+      },
+      "refineData": {
+        "力量": { "base": "+32", "level1": "+35", "level2": "+38", "level3": "+41" },
+        "意志": { "base": "+21", "level1": "+23", "level2": "+25", "level3": "+27" }
+      }
+    },
+    {
+      "id": "mi-jingyong-miaogu",
+      "name": "M.I.警用瞄具",
+      "slot": "配件",
+      "gameEntryId": 974,
+      "baseStats": {
+        "防御力": "+21",
+        "力量": "+21"
+      },
+      "refineData": {
+        "力量": { "base": "+21", "level1": "+23", "level2": "+25", "level3": "+27" }
+      }
+    },
+    {
+      "id": "mi-jingyong-gongjuzu",
+      "name": "M.I.警用工具组",
+      "slot": "配件",
+      "gameEntryId": 975,
+      "baseStats": {
+        "防御力": "+21",
+        "智识": "+32"
+      },
+      "refineData": {
+        "智识": { "base": "+32", "level1": "+35", "level2": "+38", "level3": "+41" }
+      }
+    },
+    {
+      "id": "mi-jingyong-ciren",
+      "name": "M.I.警用刺刃",
+      "slot": "配件",
+      "gameEntryId": 976,
+      "baseStats": {
+        "防御力": "+21",
+        "智识": "+21",
+        "意志": "+32"
+      },
+      "refineData": {
+        "意志": { "base": "+32", "level1": "+35", "level2": "+38", "level3": "+41" },
+        "智识": { "base": "+21", "level1": "+23", "level2": "+25", "level3": "+27" }
+      }
+    },
+    {
+      "id": "mi-jingyong-ciren-1",
+      "name": "M.I.警用刺刃·壹型",
+      "slot": "配件",
+      "gameEntryId": 977,
+      "baseStats": {
+        "防御力": "+21",
+        "意志": "+32"
+      },
+      "refineData": {
+        "意志": { "base": "+32", "level1": "+35", "level2": "+38", "level3": "+41" }
+      }
+    }
+  ]
+}
